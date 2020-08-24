@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    width: 20vw;
+    height: 20vw;
+    grid-template: repeat(3, 17vw) 5vw/repeat(3, 12vw) minmax(350px, 30vw);
+    row-gap: 2vw;
+    column-gap: 2vw;
+    font-size: 12px;
+    margin: 0 0 0 10%;
+}
+
+.item {
+    background-color: darkgray;
+    font-weight: 600;
+}
+
+.item--1 {
+    grid-column: 1/6;
+}
+
+.item--2 {}
+
+.item--3 {}
+
+.item--4 {}
+
+.item--5 {
+    grid-column: 4/6;
+    grid-row: 2/4;
+    background-color: darkkhaki;
+
+}
+
+.item--6 {
+    grid-column: 1/4;
+}
+
+.item--7 {
+    grid-column: 1/6;
+}
